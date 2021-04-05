@@ -5,7 +5,7 @@
 }
 
 body, html {
-    background-color: aqua;
+    background-color: rgb(89, 162, 162);
 }
 
 .calculator {
@@ -27,8 +27,8 @@ body, html {
 
 #history {
     text-align: right;
-    height: 20px;
-    margin: 0 20px;
+    height: 40px;
+    margin: 10px 20px;
     padding-top: 20px;
     font-size: 15px;
     color: #919191;
@@ -53,6 +53,12 @@ body, html {
 
 .number,  .empty {
     background-color: #eaedef;
+}
+
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3  ) {
+    background-color: #bdbdbd;
 }
 
 .number, .operator {
